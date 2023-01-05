@@ -63,7 +63,7 @@ nav li{
    
 }
 
-.sub-title{
+.section-title{
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -107,7 +107,7 @@ main{
     justify-content: space-around;
 }
 
-.info-title{
+.section-title{
     font-size: 20px;
     color: #757575;
 }
@@ -117,4 +117,114 @@ main{
     font-size: 20px;
     color: #474747;
     
+}
+
+.whatido{ 
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    
+}
+
+
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+margin-top: 100px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.skill-dis{
+    color: #757575;
+}
+
+ .resume-main-title{
+    text-align: center;
+    font-size: 35px;
+   font-weight: 700;
+   margin-top: 130px;
+   margin-bottom: 100px;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title{
+ font-weight: 700;
+ font-size: 20px;
+ color: #474747;
+ margin-bottom: 10px;
+}
+
+ .subtitle{
+ color: #757575;
+ font-weight: 600;
+ font-size: 25px;
+ margin-bottom: 30px;
+}
+
+.resume .des{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.resume-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea
+{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 60px;
+}
+
+.papi{
+    margin-bottom: 30px;
+}
+
+.contact a{
+    text-decoration: none;
 }
